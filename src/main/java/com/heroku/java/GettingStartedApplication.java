@@ -23,7 +23,7 @@ public class GettingStartedApplication {
 
     @GetMapping("/")
     public String index() {
-        return "Hello world";
+        return "index";
     }
 
     @GetMapping("/database")
